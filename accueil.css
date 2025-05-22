@@ -1,0 +1,78 @@
+/* Style général */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+}
+
+/* En-tête */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004080;
+  color: white;
+  padding: 10px 20px;
+}
+
+header .logo-left img,
+header .logo-right img {
+  height: 60px;
+}
+
+header .title h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+/* Contenu principal */
+main {
+  display: flex;
+}
+
+/* Barre latérale */
+.sidebar {
+  width: 220px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #004080;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin: 10px 0;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #004080;
+  transition: 0.3s;
+}
+
+.sidebar ul li a:hover {
+  color: #0066cc;
+  font-weight: bold;
+}
+
+/* Contenu */
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.content h2 {
+  color: #004080;
+}

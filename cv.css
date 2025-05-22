@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: aquamarine;
+}
+.début {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  /* height: 100vh; */
+  box-sizing: border-box;
+  text-align: center;
+  /* background-color: white; */
+  
+} 
+
+.début img {
+  width: 100px;
+}
+
+.début h1 {
+  flex: 1;
+  font-size: 36px;
+  color: darkblue;
+  margin: 0 40px;
+} 
+
+.menu img{
+  position: absolute;
+  font-size: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  right: 3%;
+  top: 25%;
+}
